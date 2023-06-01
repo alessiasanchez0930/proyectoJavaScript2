@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 JavaScript</title>
+</head>
+
+<body>
+
+    <h1> <i> NUMERO SI ES DIVISIBLE ENTRE 2 </i></h1>
+
+    <script>
+
+        // Divisible entre 2.
+        var number = parseInt(prompt('Ingrese un numero:'));
+        if (number % 2 === 0) {
+            alert('El numero ' + number + ' si es divisible entre el numero 2');
+            console.log('El numero ' + number + ' si es divisible entre el numero 2');
+        }
+        else {
+            alert('El numero ' + number + ' no es divisible entre el numero 2');
+            console.log('El numero ' + number + ' no es divisible entre el numero 2');
+        }
+
+
+        //OTRO EJERCICIO
+        //Si es divisible por 3 y por 4.
+        var numero = parseInt(prompt('Ingrese un numero:'));
+        if (numero % 3 === 0 && numero % 4 === 0) {
+            alert('El numero ' + numero + ' es divisible por los numeros 3 y 4');
+            console.log('El numero ' + numero + ' es divisible por los numeros 3 y 4');
+        }
+
+        else if (numero % 3 === 0) {
+            alert('El numero ' + numero + ' solo es divisible por el numero 3');
+            console.log('El numero ' + numero + ' solo es divisible por el numero 3');
+        }
+        else if (numero % 4 === 0) {
+            alert('el numero ' + numero + ' solo es divisible por el numero 4');
+            console.log('el numero ' + numero + ' solo es divisible por el numero 4');
+        }
+
+        else {
+            alert('el numero ' + numero + ' no es divisible ni por el numero 3 y ni por el numero 4');
+            console.log('el numero ' + numero + ' no es divisible ni por el numero 3 y ni por el numero 4');
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
